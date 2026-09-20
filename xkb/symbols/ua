@@ -1,6 +1,8 @@
 partial alphanumeric_keys
 xkb_symbols "latynski" {
 
+    include "us(basic)"
+    include "level3(ralt_switch)"
     name[Group1] = "Ukrainian - Latynśki";
 
     //-------------------------------------------
